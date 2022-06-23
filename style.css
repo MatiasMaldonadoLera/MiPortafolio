@@ -1,0 +1,148 @@
+.color-1-hex {
+  background-color: #127369;
+}
+.color-2-hex {
+  background-color: #10403b;
+}
+.color-3-hex {
+  background-color: #8aa6a3;
+}
+.color-4-hex {
+  background-color: #4c5958;
+}
+.color-5-hex {
+  background-color: #bfbfbf;
+}
+.color-white {
+  color: white;
+}
+.color-black {
+  color: black;
+}
+
+.linksNav {
+  margin-left: 2%;
+}
+
+.linksNav a {
+  text-decoration: none;
+  margin: 0 1%;
+}
+
+.img-profile {
+  max-width: 400px;
+  max-height: 450px;
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50%;
+  margin: 5% 0 0 0;
+}
+
+.img-portafolio img {
+  width: 100%;
+  height: 300px;
+}
+
+.img-portafolio {
+  flex: 1 1 auto;
+  min-width: 20%;
+}
+
+.col-10 {
+  margin: 0 auto;
+}
+
+.about {
+  margin: 5% auto;
+}
+
+.center-element {
+  text-align: center;
+}
+
+.left-element {
+  text-align: left;
+}
+
+.fondo {
+  background-image: url("img/fondo4.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+}
+
+.position-center {
+  display: flex;
+  justify-content: center;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-container h5 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.briefcase {
+  padding: 5% 0;
+}
+
+.margin-img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.my-label {
+  width: 25%;
+  font-weight: 500;
+}
+
+.about a {
+  margin-right: 3%;
+  color: white;
+}
+
+.copyright {
+  margin: 10px auto;
+}
+.positionUl {
+  display: flex;
+  width: 40%;
+  justify-content: flex-end;
+}
+
+.positionUl a {
+  text-decoration: none;
+}
+
+.positionUl li {
+  margin: auto 2%;
+}
+
+.btnSend {
+  width: 50%;
+  padding: 1%;
+  font-weight: 700;
+}
+
+.direccionReverse {
+  flex-direction: row-reverse;
+}
+
+.tecnologia img {
+  height: 100px;
+}
