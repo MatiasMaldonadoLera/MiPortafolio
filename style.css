@@ -62,7 +62,7 @@
   background-repeat: no-repeat;
   background-color: #127369;
   height: calc(100vh - 56px);
-  /* background-size: cover; */
+  background-size: cover;
   display: grid;
   grid-template-areas:
     ". a a ."
