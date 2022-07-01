@@ -207,3 +207,7 @@
 .tecnologia img {
   height: 100px;
 }
+
+.container div>a{
+  color: white;
+}
