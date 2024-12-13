@@ -14,242 +14,201 @@
 </head>
 
 <body>
-  <header class="color-2-hex sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark color-2-hex">
+  <header class="sticky-top bg-secondary-2">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Matias Maldonado Lera</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse direccionReverse" id="navbarNav">
-          <ul class="navbar-nav positionUl">
-            <li class="nav-item">
-              <a href="#portafolio" class="link-light">Portafolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="link-light">Acerca de Mi</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contacto" class="link-light">Contacto</a>
-            </li>
-            <li>
-              <a href="#direccion-email" class="link-light">Email</a>
-            </li>
+        <div class="navbar-collapse collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#portafolio" class="nav-link">Portafolio</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">Acerca de Mi</a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            <li><a href="#direccion-email" class="nav-link">Email</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <main class="fondo" id="inicio">
-    <article class="profile">
-      <img
-        class="profile-header"
-        src="img/fondos/fondo10.jpg"
-        alt="profile-header"
-      />
-      <div class="profile-body">
-        <img
-          class="profile-img"
-          src="./img/1605557497166.jpg"
-          alt="profile-profile"
-        />
+  <main class="d-flex justify-content-center align-items-center vh-100 main-background" id="inicio">
+    <article class="profile-card d-grid card shadow overflow-hidden">
+      <img class="h-100" src="img/fondos/fondo10.jpg" alt="Fondo del perfil"/>
+      <div class="profile-body d-grid text-center ">
+        <img class="profile-img" src="./img/1605557497166.jpg" alt="Foto del perfil"/>
         <div class="profile-content">
-          <h1 class="profile-content-title">
-            Matias Maldonado Lera
-            <span class="profile-content-age"> 27 </span>
-          </h1>
-          <div class="profile-content-dato">Florida, Vicente Lopez</div>
-          <div class="profile-content-dato">Dev PHP Jr</div>
+          <h1 class="fs-5"> Matias Maldonado Lera <span class="text-secondary fs-6"> 30 </span></h1>
+          <p class="my-1 text-muted small">Florida, Vicente Lopez</p>
+          <p class="my-1 text-muted small">Dev Full Stack SSr</p>
         </div>
       </div>
-      <div class="profile-footer">
-        <div class="profile-footer-info">
-          <h4>1</h4>
-          <p>Exp. Laboral</p>
+      <div class="d-flex justify-content-around align-items-center">
+        <div>
+          <h4 class="d-flex align-items-center justify-content-center">4</h4>
+          <p class="m-0 text-muted small">Exp. Laboral</p>
         </div>
-        <div class="profile-footer-info">
-          <h4>4</h4>
-          <p>Proyectos</p>
+        <div>
+          <h4 class="d-flex align-items-center justify-content-center">4</h4>
+          <p class="m-0 text-muted small">Proyectos</p>
         </div>
-        <div class="profile-footer-info">
-          <h4>5</h4>
-          <p>Lenguajes</p>
+        <div>
+          <h4 class="d-flex align-items-center justify-content-center">5</h4>
+          <p class="m-0 text-muted small">Lenguajes</p>
         </div>
       </div>
     </article>
   </main>
-  <section class="color-3-hex color-black" id="portafolio">
-    <div class="briefcase container">
-      <div class="position-center title-container">
-        <h2 class="">PORTAFOLIO</h2>
-      </div>
-      <div class="my-grid">
-        <div class="img-portafolio card margin-img">
-          <div class="card-header">Color Game</div>
-          <div class="card-body">
-            <!--  <a href="https://cozy-griffin-1ff6b7.netlify.app/"> -->
-            <a href="https://matiasmaldonadolera.github.io/ColorGame/">
-              <img src="./img/colorGame.png" alt="" />
-            </a>
-          </div>
-          <div class="card-footer">Desarrollado con: HTML 5 - CSS3 - JS</div>
-        </div>
-        <div class="img-portafolio card margin-img">
-          <div class="card-header">To Do List</div>
-          <div class="card-body">
-            <!--  <a href="https://sage-piroshki-7a78e8.netlify.app/"> -->
-            <a href="https://matiasmaldonadolera.github.io/ToDoList/">
-              <img src="img/To Do List.jpg" alt="" />
-            </a>
-          </div>
-          <div class="card-footer">Desarrollado con: HTML 5 - CSS3 - JS</div>
-        </div>
-        <div class="img-portafolio card margin-img">
-          <div class="card-header">Weather Channel</div>
-          <div class="card-body">
-            <!-- <a href="https://fancy-griffin-99dfb3.netlify.app/"> -->
-            <a href="https://matiasmaldonadolera.github.io/WheatherChannel/">
-              <img src="img/weather Channel.jpg" alt="" />
-            </a>
-          </div>
-          <div class="card-footer">
-            Desarrollado con: HTML 5 - CSS3 - JS- JQUERY
+  <section class="bg-tertiary-3 py-5" id="portafolio">
+    <div class="container  text-center">
+      <h2 class="mb-5">PORTAFOLIO</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="fw-bold fs-4">Color Game</div>
+            <div class="card-body">
+              <!--  <a href="https://cozy-griffin-1ff6b7.netlify.app/"> -->
+              <a href="https://matiasmaldonadolera.github.io/ColorGame/">
+                <img src="./img/colorGame.png" alt="color Game" />
+              </a>
+            </div>
+            <div class="card-footer text-muted">Desarrollado con: HTML 5 - CSS3 - JS</div>
           </div>
         </div>
-        <div class="img-portafolio card margin-img">
-          <div class="card-header">Card Profile</div>
-          <div class="card-body">
-            <a href="https://matiasmaldonadolera.github.io/CardCss/">
-              <img src="img/Profile-card-component-2.png" alt="" />
-            </a>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="fw-bold fs-4">To Do List</div>
+            <div class="card-body">
+              <!--  <a href="https://sage-piroshki-7a78e8.netlify.app/"> -->
+              <a href="https://matiasmaldonadolera.github.io/ToDoList/">
+                <img src="img/To Do List.jpg" alt="To Do List" />
+              </a>
+            </div>
+            <div class="card-footer text-muted">Desarrollado con: HTML 5 - CSS3 - JS</div>
           </div>
-          <div class="card-footer">
-            Desarrollado con: HTML 5 - CSS3 - SASS
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="fw-bold fs-4">Weather Channel</div>
+            <div class="card-body">
+              <!-- <a href="https://fancy-griffin-99dfb3.netlify.app/"> -->
+                <a href="https://matiasmaldonadolera.github.io/WheatherChannel/">
+                  <img src="img/weather Channel.jpg" alt="Weather Channel" />
+                </a>
+              </div>
+              <div class="card-footer text-muted">Desarrollado con: HTML 5 - CSS3 - JS- JQUERY</div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="fw-bold fs-4">Card Profile</div>
+            <div class="card-body">
+              <a href="https://matiasmaldonadolera.github.io/CardCss/">
+                <img src="img/Profile-card-component-2.png" alt="Card Profile" />
+              </a>
+            </div>
+            <div class="card-footer text-muted">Desarrollado con: HTML 5 - CSS3 - SASS</div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="color-1-hex my-row color-white" id="about">
-    <div class="about container center-element">
-      <h2 class="title-about">ACERCA DE MI</h2>
-      <hr />
-      <p class="content-about">
-        Me llamo de Matias Maldonado, realice cursos de php y seguridad
-        informatica en CUV (centro universitario de vicente Lopez).
-        Actualmente desarrollo en Magento para Liesa. Me gusta el desarrollo
-        web y la seguridad informatica. Tambien soy fantico del deporte y de
-        peliculas de accion. Con gusto puedes ver mi portafolio y contactarme.
+
+  <section class="py-5 bg-primary-1 color-white" id="about">
+    <div class="container text-center">
+      <h2>Acerca de Mí</h2>
+      <hr class="border-0" />
+      <p>
+        Me llamo Matías Maldonado. Realicé cursos de PHP, C#, Desarrrollo Web y Seguridad Informática en el Centro Universitario de Vicente López (CUV). 
+        Actualmente, desarrollo en Angular y .NET para YPF. Me apasiona el desarrollo web y la seguridad informática. 
+        Si quieres saber más sobre mi trabajo,<a href="#contacto" class="color-white"> contáctame</a> 
       </p>
-      <h2 class="title-about">HABILIDADES TECNOLOGICAS</h2>
-      <hr />
-      <div class="content-about my-row">
-        <div class="tecnologia margin-img">
-          <img src="img/tecnologia/html.png" alt="" />
-        </div>
-        <div class="tecnologia margin-img">
-          <img src="img/tecnologia/css.png" alt="" />
-        </div>
-        <div class="tecnologia margin-img">
-          <img src="img/tecnologia/js.png" alt="" />
-        </div>
-        <div class="tecnologia margin-img">
-          <img src="img/tecnologia/php.png" alt="" />
-        </div>
-        <div class="tecnologia margin-img">
-          <img src="img/tecnologia/magento 2.png" alt="" />
-        </div>
+      <h2>Habilidades Tecnológicas</h2>
+      <hr class="border-0" />
+      <div class="g-4 d-flex flex-wrap justify-content-center">
+        <img src="img/tecnologia/html.png" alt="HTML" class="technology-icon" />
+        <img src="img/tecnologia/css.png" alt="CSS" class="technology-icon" />
+        <img src="img/tecnologia/js.png" alt="JavaScript" class="technology-icon" />
+        <img src="img/tecnologia/php.png" alt="PHP" class="technology-icon" />
+        <img src="img/tecnologia/magento 2.png" alt="Magento 2" class="technology-icon" />
+      </div>
       </div>
     </div>
   </section>
-  <section class="color-3-hex" id="contacto">
-    <div class="container briefcase">
-      <h1 class="center-element color-black">CONTACTO</h1>
-      <form class="contact_form col-lg-8 col-md col-sm-12" action="https://submit-form.com/lfjjR5RD" method="POST">
-        <div class="input-group mb-3">
-          <label for="inputName4" class="input-group-text my-label left-element">Nombre</label>
-          <input type="text" class="form-control" id="inputName4" required />
+  
+  <section class="bg-tertiary-3 py-5" id="contacto">
+    <div class="container">
+      <h1 class="text-center text-dark mb-4">Contacto</h1>
+      <form class="col-lg-8 mx-auto" action="https://submit-form.com/lfjjR5RD" method="POST">
+        <div class="mb-3">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="inputName" name="name" placeholder="Ingresa tu nombre" required/>
         </div>
-        <div class="input-group mb-3">
-          <label for="inputEmail4" class="input-group-text my-label left-element">Email</label>
-          <input type="email" class="form-control" id="inputEmail4" required />
+  
+        <div class="mb-3">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Ingresa tu email" required/>
         </div>
-        <div class="input-group mb-3">
-          <label for="inputNumber" class="input-group-text my-label left-element">Numero Telefonico</label>
-          <input type="text" class="form-control" id="inputNumber" />
+  
+        <div class="mb-3">
+          <label for="inputPhone" class="form-label">Número Telefónico</label>
+          <input type="tel" class="form-control" id="inputPhone" name="phone" placeholder="Opcional" />
         </div>
-        <div class="input-group">
-          <label for="exampleFormControlTextarea1" class="input-group-text my-label left-element">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="message" name="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
         </div>
-        <div class="col-12 center-element position-center about">
-          <button type="submit" class="btn btn-outline-dark btnSend">
-            Enviar
-          </button>
+        <div class="text-center">
+          <button type="submit" class="btn btn-lg btn-custom">Enviar</button>
         </div>
       </form>
     </div>
   </section>
-  <footer class="page-sections secciones color-1-hex briefcase color-white" id="direccion-email">
+
+  <footer class="bg-primary-1 py-5 color-white" id="direccion-email">
     <div class="container">
-      <div class="my-row">
-        <aside class="col-lg-6 footer-col container">
+      <div class="row">
+        <aside class="col-lg-6 mb-4">
           <h3>Direccion</h3>
-          <hr />
+          <hr class="border-0 bg-white"/>
           <h5>Florida,Vicente Lopez</h5>
-          <div style="width: 100%">
+          <div class="map-container">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26294.662053407057!2d-58.509143879526285!3d-34.5324649463486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6cc77eb3961%3A0xee434cae937168d9!2sFlorida%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1652373435245!5m2!1ses-419!2sar"
-              width="250" height="300" style="border: 0" allowfullscreen="" loading="lazy"
+              width="100%" height="300" style="border: 0" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </aside>
-        <aside class="col-lg-6 footer-col container">
+        <aside class="col-lg-6 mb-4">
           <h3>En la Web</h3>
-          <hr />
-          <!-- <div class="position-center about">
-            <a href="https://github.com/matiaslera">
-              <i class="fa-brands fa-github fa-3x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/matias-lera-maldonado-728b026b/" target="_blank">
-              <i class="fa-brands fa-linkedin fa-3x"></i>
-            </a>
-          </div> -->
-          <div>
-            <i class="fa-brands fa-github fa-2x"></i> <a href="https://github.com/MatiasMaldonadoLera/"><span> Matias Maldonado Lera</span></a>
-          </div>
-          <div>
-            <i class="fa-brands fa-linkedin fa-2x"></i> <a href="https://www.linkedin.com/in/matias-lera-maldonado-728b026b/"><span> Matias Maldonado Lera</span></a>
-          </div>
-          <div>
-            <i class="fa-solid fa-envelope fa-2x"></i>
-            <span> matiasmal_94@hotmail.com</span>
-          </div>
-          <div>
-            <i class="fa-solid fa-envelope fa-2x"></i>
-            <span> matiasmaldonadolera@gmail.com</span>
-          </div>
+          <hr class="border-0 bg-white" />
+          <ul class="list-unstyled">
+            <li> <i class="fa-brands fa-github fa-2x me-2"></i>
+              <a href="https://github.com/MatiasMaldonadoLera/" class="text-white text-decoration-none">Matias Maldonado Lera</a>
+            </li>
+            <li> <i class="fa-brands fa-linkedin fa-2x me-2"></i>
+              <a href="https://www.linkedin.com/in/matias-lera-maldonado-728b026b/" class="text-white text-decoration-none">Matias Maldonado Lera</a>
+            </li>
+            <li> <i class="fa-solid fa-envelope fa-2x me-2"></i>
+              <span>matiasmaldonadolera@gmail.com</span>
+            </li>
+          </ul>
         </aside>
       </div>
     </div>
   </footer>
-  <div class="my-row color-4-hex color-white">
-    <div class="copyright center-element container">
+  <div class="footer-copyright text-center py-3">
+    <div class="container">
       &copy; 2022 - Matias Maldonado - Todos los derechos reservados
     </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  </div>  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 </body>
 
