@@ -32,106 +32,97 @@
       </div>
     </nav>
   </header>
-  <main class="d-flex justify-content-center align-items-center vh-100 main-background" id="inicio">
-    <article class="profile-card d-grid card shadow overflow-hidden">
-      <img class="h-100 w-100" src="img/fondos/fondo10.jpg" alt="Fondo del perfil"/>
-      <div class="profile-body d-grid text-center ">
-        <img class="profile-img" src="./img/1605557497166.jpg" alt="Foto del perfil"/>
-        <div class="profile-content">
-          <h1 class="fs-5"> Matias Maldonado Lera <span class="text-secondary fs-6"> 30 </span></h1>
-          <p class="my-1 text-muted small">Florida, Vicente Lopez</p>
-          <p class="my-1 text-muted small">Dev Full Stack SSr</p>
+
+  <main class="main" id="inicio">
+    <article class="profile-card">
+      <img class="background-img" src="img/fondos/fondo10.jpg" alt="Fondo del perfil" />
+      <div class="profile-body">
+        <img class="profile-img" src="./img/1605557497166.jpg" alt="Foto del perfil" />
+        <div class="profile-info">
+          <h1>Matias Maldonado Lera <span>30</span></h1>
+          <p>Florida, Vicente Lopez</p>
+          <p>Dev Full Stack SSr</p>
         </div>
-      </div>
-      <div class="d-flex justify-content-around align-items-center">
-        <div>
-          <h4 class="d-flex align-items-center justify-content-center">4</h4>
-          <p class="m-0 text-muted small">Exp. Laboral</p>
-        </div>
-        <div>
-          <h4 class="d-flex align-items-center justify-content-center">4</h4>
-          <p class="m-0 text-muted small">Proyectos</p>
-        </div>
-        <div>
-          <h4 class="d-flex align-items-center justify-content-center">5</h4>
-          <p class="m-0 text-muted small">Lenguajes</p>
-        </div>
+      </div>  <hr/>
+      <div class="profile-stats">
+        <h4>4</h4>
+        <h4>6</h4>
+        <h4>5</h4>
+        <p>Exp. Laboral</p>
+        <p>Proyectos</p>
+        <p>Lenguajes</p>
       </div>
     </article>
   </main>
-  <section class="bg-tertiary-3 py-5" id="portafolio">
-    <div class="container  text-center">
-      <h2 class="mb-5">PORTAFOLIO</h2>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <div class="fw-bold fs-4">Color Game</div>
-            <div class="card-body">
-              <!--  <a href="https://cozy-griffin-1ff6b7.netlify.app/"> -->
-              <a href="https://matiasmaldonadolera.github.io/ColorGame/">
-                <img src="./img/colorGame.png" alt="color Game" />
-              </a>
-            </div>
-            <div class="card-footer text-muted">Desarrollado con: HTML 5 - CSS3 - JS</div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <div class="fw-bold fs-4">To Do List</div>
-            <div class="card-body">
-              <!--  <a href="https://sage-piroshki-7a78e8.netlify.app/"> -->
-              <a href="https://matiasmaldonadolera.github.io/ToDoList/">
-                <img src="img/To Do List.jpg" alt="To Do List" />
-              </a>
-            </div>
-            <div class="card-footer text-muted">Desarrollado con: HTML 5 - CSS3 - JS</div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <div class="fw-bold fs-4">Weather Channel</div>
-            <div class="card-body">
-              <!-- <a href="https://fancy-griffin-99dfb3.netlify.app/"> -->
-                <a href="https://matiasmaldonadolera.github.io/WheatherChannel/">
-                  <img src="img/weather Channel.jpg" alt="Weather Channel" />
-                </a>
-              </div>
-              <div class="card-footer text-muted">Desarrollado con: HTML 5 - CSS3 - JS- JQUERY</div>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 shadow-sm">
-            <div class="fw-bold fs-4">Card Profile</div>
-            <div class="card-body">
-              <a href="https://matiasmaldonadolera.github.io/CardCss/">
-                <img src="img/Profile-card-component-2.png" alt="Card Profile" />
-              </a>
-            </div>
-            <div class="card-footer text-muted">Desarrollado con: HTML 5 - CSS3 - SASS</div>
-          </div>
-        </div>
-      </div>
+  
+  <section class="portfolio" id="portafolio">
+    <div class="portfolio-header">
+      <h2>PORTAFOLIO</h2>
+    </div>
+    <div class="portfolio-grid">
+      <article class="portfolio-item">
+        <h3 class="portfolio-title">Motos Terry</h3>
+        <a href="https://motosterry.com.ar/">
+          <img src="img/Portfolio/MotosTerry.png" alt="Motos Terry" class="portfolio-image">
+        </a>
+        <footer class="portfolio-footer">Desarrollado con: WordPress</footer>
+      </article>
+      <article class="portfolio-item">
+        <h3 class="portfolio-title">Indicadores de datos</h3>
+        <a href="https://indicadores-datos-cas.ypf.com/">
+          <img src="img/Portfolio/Indicadores.png" alt="Indicadores" class="portfolio-image">
+        </a>
+        <footer class="portfolio-footer">Desarrollado con: .Net 8</footer>
+      </article>
+      <article class="portfolio-item">
+        <h3 class="portfolio-title">Color Game</h3>
+        <a href="https://matiasmaldonadolera.github.io/ColorGame/">
+          <img src="./img/colorGame.png" alt="Color Game" class="portfolio-image">
+        </a>
+        <footer class="portfolio-footer">Desarrollado con: HTML 5 - CSS3 - JS</footer>
+      </article>
+      <article class="portfolio-item">
+        <h3 class="portfolio-title">To Do List</h3>
+        <a href="https://matiasmaldonadolera.github.io/ToDoList/">
+          <img src="img/To Do List.jpg" alt="To Do List" class="portfolio-image">
+        </a>
+        <footer class="portfolio-footer">Desarrollado con: HTML 5 - CSS3 - JS</footer>
+      </article>
+      <article class="portfolio-item">
+        <h3 class="portfolio-title">Weather Channel</h3>
+        <a href="https://matiasmaldonadolera.github.io/WheatherChannel/">
+          <img src="img/weather Channel.jpg" alt="Weather Channel" class="portfolio-image">
+        </a>
+        <footer class="portfolio-footer">Desarrollado con: HTML 5 - CSS3 - JS- JQUERY</footer>
+      </article>
+      <article class="portfolio-item">
+        <h3 class="portfolio-title">Card Profile</h3>
+        <a href="https://matiasmaldonadolera.github.io/CardCss/">
+          <img src="img/Profile-card-component-2.png" alt="Card Profile" class="portfolio-image">
+        </a>
+        <footer class="portfolio-footer">Desarrollado con: HTML 5 - CSS3 - SASS</footer>
+      </article>
     </div>
   </section>
 
-  <section class="py-5 bg-primary-1 color-white" id="about">
-    <div class="container text-center">
-      <h2>Acerca de Mí</h2>
-      <hr class="border-0" />
+  <section class="about-section" id="about">
+    <div class="content">
+      <h2>Acerca de Mí</h2> <hr>
       <p>
-        Me llamo Matías Maldonado. Realicé cursos de PHP, C#, Desarrrollo Web y Seguridad Informática en el Centro Universitario de Vicente López (CUV). 
+        Me llamo Matías Maldonado. Realicé cursos de PHP, C#, Desarrollo Web y Seguridad Informática en el Centro Universitario de Vicente López (CUV). 
         Actualmente, desarrollo en Angular y .NET para YPF. Me apasiona el desarrollo web y la seguridad informática. 
-        Si quieres saber más sobre mi trabajo,<a href="#contacto" class="color-white"> contáctame</a> 
+        Si quieres saber más sobre mi trabajo, <a href="#contacto">contáctame</a>.
       </p>
-      <h2>Habilidades Tecnológicas</h2>
-      <hr class="border-0" />
-      <div class="g-4 d-flex flex-wrap justify-content-center">
+      <h2>Habilidades Tecnológicas</h2> <hr>
+      <div class="technology-grid">
         <img src="img/tecnologia/html.png" alt="HTML" class="technology-icon" />
         <img src="img/tecnologia/css.png" alt="CSS" class="technology-icon" />
         <img src="img/tecnologia/js.png" alt="JavaScript" class="technology-icon" />
         <img src="img/tecnologia/php.png" alt="PHP" class="technology-icon" />
         <img src="img/tecnologia/magento 2.png" alt="Magento 2" class="technology-icon" />
-      </div>
+        <img src="img/tecnologia/Angular.png" alt="Angular" class="technology-icon" />
+        <img src="img/tecnologia/netCore.png" alt="Net" class="technology-icon" />
+        <img src="img/tecnologia/wordpress.jpg" alt="WordPress" class="technology-icon" />
       </div>
     </div>
   </section>
@@ -144,12 +135,10 @@
           <label for="inputName" class="form-label">Nombre</label>
           <input type="text" class="form-control" id="inputName" name="name" placeholder="Ingresa tu nombre" required/>
         </div>
-  
         <div class="mb-3">
           <label for="inputEmail" class="form-label">Email</label>
           <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Ingresa tu email" required/>
         </div>
-  
         <div class="mb-3">
           <label for="inputPhone" class="form-label">Número Telefónico</label>
           <input type="tel" class="form-control" id="inputPhone" name="phone" placeholder="Opcional" />
@@ -197,11 +186,11 @@
       </div>
     </div>
   </footer>
-  <div class="footer-copyright text-center py-3">
-    <div class="container">
+
+  <div class="footer-copyright">
       &copy; 2022 - Matias Maldonado - Todos los derechos reservados
-    </div>
   </div>  
+  
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
